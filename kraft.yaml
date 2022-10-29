@@ -15,13 +15,13 @@ targets:
   - architecture: x86_64
     platform: xen
 libraries:
+  musl:
+    version: stable
   libunwind:
     version: stable
-  compiler-rt:
-    version: a48c20
   libcxx:
     version: stable
   libcxxabi:
     version: stable
-  newlib:
+  compiler-rt:
     version: stable
