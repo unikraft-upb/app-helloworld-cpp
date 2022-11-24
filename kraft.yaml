@@ -5,8 +5,6 @@ unikraft:
   version: stable
   kconfig:
     - CONFIG_LIBPOSIX_SYSINFO=y
-    - CONFIG_LIBUKSIGNAL=y
-    - CONFIG_LIBNEWLIBC=y
 targets:
   - architecture: x86_64
     platform: linuxu
@@ -24,4 +22,6 @@ libraries:
   libcxxabi:
     version: stable
   compiler-rt:
+    version: stable
+  lwip:
     version: stable
